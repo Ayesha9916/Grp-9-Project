@@ -192,7 +192,7 @@ button
  }
 .form {
   width: 50%;
-  height: 130px;
+  height: 40.7%;
   text-align: left;
   margin: auto;
   font-size: 19px;
@@ -231,7 +231,7 @@ float: right;
     left: 10%;
     display:table;
     width: 44%;
-	height: 30%;
+	
     animation-duration: 4s;
     animation-name: vidslidein;
 }
