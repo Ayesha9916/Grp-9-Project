@@ -124,6 +124,7 @@ header{
   left: 50%;
   transform: translate(-50%, -50%);
   width: 100%;
+	
 }
 .container span{
   color: white;
@@ -230,6 +231,7 @@ float: right;
     left: 10%;
     display:table;
     width: 44%;
+	height: 30%;
     animation-duration: 4s;
     animation-name: vidslidein;
 }
