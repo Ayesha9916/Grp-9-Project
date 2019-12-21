@@ -194,8 +194,22 @@
      </div>
      <br><br>
     <div style="text-align:center">
-     <input type="reset" class="sampleBtn1"/>
-     <input type="submit" class="sampleBtn"/>
+     <button type="reset" class="sampleBtn1"/>reset</button>
+     <button onclick="myFunction()" type="submit" class="sampleBtn"/>submit</button>
+     <p id="demo"></p>
+     <script>
+          function myFunction() {
+            var txt;
+            var r = confirm("Are you sure you want to proceed?");
+            if (r == true) {
+              txt = "You are registered!";
+            } else {
+              txt = "";
+            }
+            document.getElementById("demo").innerHTML = txt;
+          }
+          </script>
+
     </div>
 
    </form>
