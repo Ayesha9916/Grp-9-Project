@@ -105,7 +105,7 @@ header{
   background-image: linear-gradient(rgba(3, 3, 28, 0.77), rgba(3, 3, 28, 0.77)), url("kuantan.jpg");
 
   /* Set a specific height */
-  height: 60%;
+  height: 50%;
   width: 100%;
 
   /* Position and center the image to scale nicely on all screens */
@@ -123,6 +123,12 @@ header{
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
+  font-size: 35px;
+}
+
+h1{
+  font-family: 'Century Gothic';
+
 }
 
 form{
