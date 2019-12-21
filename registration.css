@@ -102,10 +102,10 @@ header{
 /* The hero image */
 .hero-image {
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-  background-image: linear-gradient(rgba(3, 3, 28, 0.77), rgba(3, 3, 28, 0.77)), url("kuantan.jpg");
+  background-image: linear-gradient(rgba(3, 3, 28, 0.77), rgba(3, 3, 28, 0.77)), url("kuantan1.jpg");
 
   /* Set a specific height */
-  height: 50%;
+  height: 60%;
   width: 100%;
 
   /* Position and center the image to scale nicely on all screens */
@@ -123,12 +123,6 @@ header{
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
-  font-size: 35px;
-}
-
-h1{
-  font-family: 'Century Gothic';
-
 }
 
 form{
