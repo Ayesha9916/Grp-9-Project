@@ -105,7 +105,7 @@ header{
   background-image: linear-gradient(rgba(3, 3, 28, 0.77), rgba(3, 3, 28, 0.77)), url("kuantan.jpg");
 
   /* Set a specific height */
-  height: 50%;
+  height: 60%;
   width: 100%;
 
   /* Position and center the image to scale nicely on all screens */
@@ -245,6 +245,7 @@ color: brown;
          background-color: #001a4d;
          cursor:pointer;
   }
+
 
 
 #iiumlogo {
