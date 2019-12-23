@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>PARALLEL SESSIONS</title>
+    <link rel="short cut icon" href="ict4m.png" type="image/x-icon" />
+    <link rel="stylesheet" href="parallel.css">
+    <style>
+    .mySlides {display: none}
+    img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+    /* Slideshow container */
+    .slideshow-container {
+      max-width: 1000px;
+      position: relative;
+      margin: auto;
+    }
+
+    /* Next & previous buttons */
+    .prev, .next {
+      cursor: pointer;
+      position: absolute;
+      top: 50%;
+      width: auto;
+      padding: 16px;
+      margin-top: -22px;
+      color: white;
+      font-weight: bold;
+      font-size: 18px;
+      transition: 0.6s ease;
+      border-radius: 0 3px 3px 0;
+      user-select: none;
+    }
+
+    /* Position the "next button" to the right */
+    .next {
+      right: 0;
+      border-radius: 3px 0 0 3px;
+    }
+
+    /* On hover, add a black background color with a little bit see-through */
+    .prev:hover, .next:hover {
+      background-color: rgb(173,216,230,0.3);
+    }
+    /* The dots/bullets/indicators */
+    .dot {
+      cursor: pointer;
+      height: 15px;
+      width: 15px;
+      margin: 0 2px;
+      background-color: #bbb;
+      border-radius: 50%;
+      display: inline-block;
+      transition: background-color 0.6s ease;
+    }
+
+
+    /* Fading animation */
+    .fade {
+      -webkit-animation-name: fade;
+      -webkit-animation-duration: 1.5s;
+      animation-name: fade;
+      animation-duration: 1.5s;
+    }
+
+    @-webkit-keyframes fade {
+      from {opacity: .4}
+      to {opacity: 1}
+    }
+
+    @keyframes fade {
+      from {opacity: .4}
+      to {opacity: 1}
+    }
+
+    /* On smaller screens, decrease text size */
+    @media only screen and (max-width: 300px) {
+      .prev, .next,.text {font-size: 11px}
+    }
+    </style>
+  </head>
+  <body>
+    <header>
+
+       <div class="navbar">
+       <img src="ict4m.png" alt="ICT4M logo" class="logo">
+
+
+       <nav>
+         <ul>
+
+           <div class="dropdown">
+
+             <button class="dropbtn"><a href="index.html">HOME</a>
+               <i class="fa fa-caret-down"></i>
+             </button>
+             <div class="dropdown-content">
+             </div>
+           </div>
+           <div class="dropdown">
+
+             <button class="dropbtn"><a href="cfp.html">CALL FOR PAPERS</a>
+               <i class="fa fa-caret-down"></i>
+             </button>
+             <div class="dropdown-content">
+
+
+             </div>
+           </div>
+
+           <div class="dropdown">
+
+             <button class="dropbtn"><a href="#">SUBMISSION DETAILS</a>
+               <i class="down" id="positon1"></i>
+             </button>
+             <div class="dropdown-content">
+               <a href="importantDates.html">IMPORTANT DATES</a>
+               <a href="submissionGuideline.html">SUBMISSION GUIDELINES</a>
+
+             </div>
+           </div>
+           <div class="dropdown">
+             <button class="dropbtn"> <a href="#">REGISTRATION</a>
+               <i class="down"></i>
+             </button>
+             <div class="dropdown-content">
+               <a href="conffee1.html">CONFERENCE FEES</a>
+               <a href="registration.html">REGISTER NOW</a>
+
+             </div>
+           </div>
+           <div class="dropdown">
+             <button class="dropbtn"><a class="active" href="#">EVENT DETAILS</a>
+               <i class="down"></i>
+             </button>
+             <div class="dropdown-content">
+               <a href="conference.html">CONFERENCE PROGRAM</a>
+               <a href="parallel.html">PARALLEL SESSIONS</a>
+               <a href="speakers.html">SPREAKERS</a>
+             </div>
+           </div>
+
+           <div class="dropdown">
+             <button class="dropbtn"><a href="contactus.html">CONTACT US</a>
+               <i class="fa fa-caret-down"></i>
+             </button>
+             <div class="dropdown-content">
+
+             </div>
+           </div>
+
+         </ul>
+       </nav>
+     </div>
+   </header>
+
+
+       <div class="hero-image">
+       <div class="hero-text">
+        <h1>PARALLEL SESSIONS</h1>
+       </div>
+       </div>
+       <h3>PARALLEL SESSIONS DETAILS</h3>
+       <div class="slideshow-container">
+
+       <div class="mySlides fade">
+         <div class="numbertext">1 / 8</div>
+         <img src="ps1.jpg" style="width:80%">
+       </div>
+
+       <div class="mySlides fade">
+         <div class="numbertext">2 / 8</div>
+         <img src="ps2.jpg" style="width:80%">
+       </div>
+
+       <div class="mySlides fade">
+         <div class="numbertext">3 / 8</div>
+         <img src="ps3.jpg" style="width:80%">
+       </div>
+
+       <div class="mySlides fade">
+         <div class="numbertext">4 / 8</div>
+         <img src="ps4.jpg" style="width:80%">
+       </div>
+
+       <div class="mySlides fade">
+         <div class="numbertext">5 / 8</div>
+         <img src="ps5.jpeg" style="width:80%">
+       </div>
+
+       <div class="mySlides fade">
+         <div class="numbertext">6 / 8</div>
+         <img src="ps6.jpg" style="width:80%">
+       </div>
+
+       <div class="mySlides fade">
+         <div class="numbertext">7 / 8</div>
+         <img src="ps7.jpg" style="width:80%">
+       </div>
+
+       <div class="mySlides fade">
+         <div class="numbertext">8 / 8</div>
+         <img src="ps8.jpg" style="width:80%">
+       </div>
+
+       <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+       <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+       </div>
+       <br>
+
+       <div style="text-align:center">
+         <span class="dot" onclick="currentSlide(1)"></span>
+         <span class="dot" onclick="currentSlide(2)"></span>
+         <span class="dot" onclick="currentSlide(3)"></span>
+         <span class="dot" onclick="currentSlide(4)"></span>
+         <span class="dot" onclick="currentSlide(5)"></span>
+         <span class="dot" onclick="currentSlide(6)"></span>
+         <span class="dot" onclick="currentSlide(7)"></span>
+         <span class="dot" onclick="currentSlide(8)"></span>
+       </div>
+
+
+<p>To download the parallel sessions details
+<a href="Parallelsessions.pdf">click here<a/></p>
+<br>
+  <footer>
+
+     <div class="row">
+          <div class="col-3">
+              <div class="link-cat" onclick="footerToggle(this)">
+                  <span class="footer-toggle"></span>
+                  <br>
+                  <br><br>
+                  <br>
+
+                <a href="index.html" style="text-decoration:none;"> <span class="footer-cat" id="home" >HOME</span></a>
+                  <br>
+                  <br>
+                  <span class="footer-cat">SUBMISSION DETAILS</span>
+
+              </div>
+              <ul class="footer-cat-links">
+                  <li><a href="importantDates.html"><span>Important Dates</span></a></li>
+                  <li><a href="submissionGuideline.html"><span>Sumission Guidelines</span></a></li>
+              </ul>
+              <div class="link-cat" onclick="footerToggle(this)">
+                  <span class="footer-toggle"></span>
+                <a href="cfp.html" style="text-decoration:none;"><span class="footer-cat">CALL FOR PAPERS</span></a>
+                <br>
+                <br>
+
+                <a href="contactus.html" style="text-decoration:none;"><span class="footer-cat">CONTACT US</span></a>
+              </div>
+              <ul class="footer-cat-links">
+
+              </ul>
+          </div>
+          <div class="col-3" id="onefoot">
+
+              <div class="link-cat" onclick="footerToggle(this)">
+                  <span class="footer-toggle"></span>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <span class="footer-cat">REGISTRATION</span>
+              </div>
+              <ul class="footer-cat-links">
+                  <li><a href="conffee1.html"><span>Conference Fees</span></a></li>
+                  <li><a href="registration.html"><span> Register Now</span></a></li>
+              </ul>
+              <div class="link-cat" onclick="footerToggle(this)">
+                  <span class="footer-toggle"></span>
+                  <span class="footer-cat">EVENT DETAILS</span>
+              </div>
+              <ul class="footer-cat-links">
+                  <li><a href="conference.html"><span>Conference Program</span></a></li>
+                  <li><a href="parallel.html"><span> Parallel Sessions</span></a></li>
+                  <li><a href="speakers.html"><span>Speakers</span></a></li>
+              </ul>
+          </div>
+          <div class="col-3" id="twofoot">
+            <br>
+             <img src="iiumlogo.png" alt="" id="iiumlogo" >
+          </div>
+  <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+          <div class="col-3" id="newsletter">
+              <div id="address">
+                <br>
+                <br>
+                  <br>
+                  <ul>
+                      <li>
+                         <img src="location.png" alt="" id="icons" >
+                          <div>KICT, IIUM, Jalan Gombak<br/>
+                        53100, Kuala Lumpur, Malaysia</div>
+                      </li>
+                      <br>
+                      <br>
+                      <li>
+                          <img src="phone.png" alt="" id="icons" >
+                          <div>+803-8196 5801<br/>
+                          Fax: +803-8196 5871 </div>
+                      </li>
+
+                      <br>
+                      <li>
+                          <img src="mail.jpg" alt="" id="mail" >
+                          <div>ict4m@iium.edu.my </div>
+                      </li>
+                      <br>
+                    <a href="https://www.facebook.com/ICT4M2016"><img src="fb.png" alt="" id="fb"></a>
+                    <a href="https://www.youtube.com/watch?v=1AlM8s5F35w"><img src="ytube.png" alt="" id="fb"></a>
+                    <a href="https://twitter.com/ict4m2018">  <img src="twitter.jpg" alt="" id="fb"></a>
+
+                    <p id="tposi">Copyright © ICT4M . All rights reserved.</p>
+                  </ul>
+              </div>
+
+          </div>
+
+     </div>
+  </footer>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+
+}
+
+      //Get the button:
+  mybutton = document.getElementById("myBtn");
+
+  // When the user scrolls down 20px from the top of the document, show the button
+  window.onscroll = function() {scrollFunction()};
+
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      mybutton.style.display = "block";
+    } else {
+      mybutton.style.display = "none";
+    }
+  }
+
+  // When the user clicks on the button, scroll to the top of the document
+  function topFunction() {
+    document.body.scrollTop = 0; // For Safari
+    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+  }
+</script>
+  </body>
+</html>
