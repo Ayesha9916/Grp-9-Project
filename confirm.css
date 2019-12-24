@@ -72,6 +72,13 @@
     background-color: #2ec4a5;
     color: white;
 }
+#butn{
+   width: 100%;
+    margin-top: 3px;
+    font-size: 24px;
+    background-color: #2ec4a5;
+    color: white;
+}
 
 .creditCardForm .payment select {
     padding: 10px;
