@@ -118,3 +118,7 @@
     margin: 5px 0 0 0;
     font-size: 14px;
 }
+#back{
+	float: left;
+	font-size: 10px;
+}
