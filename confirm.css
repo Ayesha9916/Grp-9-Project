@@ -119,6 +119,7 @@
     font-size: 14px;
 }
 #back{
-	float: left;
+	margin: auto;
+	float: center;
 	font-size: 24px;
 }
