@@ -2,11 +2,9 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>REGISTER NOW</title>
+        <link rel="short cut icon" href="ict4m.png" type="image/x-icon" />
     <link rel="stylesheet" href="registration.css">
-    <script type="ict4m.js">
-
-    </script>
 
   </head>
   <body>
@@ -82,7 +80,7 @@
          </ul>
        </nav>
      </div>
-   </header>
+    </header>
 
     <div class="hero-image">
   <div class="hero-text">
@@ -94,7 +92,8 @@
    <fieldset>
 
 
-    <form action="action_page.php">
+
+      <form name="RegForm" action="action_page.php" onsubmit="return GEEKFORGEEKS()" method="post">
       <div id="container">
    <h2>	International Conference on Information & Communication Technology for the Muslim World (ICT4M 2020) </h2>
 
@@ -102,7 +101,7 @@
 
     <div class="userinput">
      <label> <b>Full Name</b>  </label>
-     <input type="text" name="name" value="" />
+     <input type="text" name="FullName" value="" />
     </div>
 
     <div class="userinput">
@@ -111,8 +110,8 @@
     </div>
 
     <div class="userinput">
-     <label> <b>Organisation</b> </label>
-     <input type="text" name="Organisation" value="" />
+     <label> <b>Organization</b> </label>
+     <input type="text" name="organisation" value="" />
     </div>
 
     <div class="userinput">
@@ -125,17 +124,17 @@
 
     <div class="userinput">
      <label><b>Contact Number</b> </label>
-     <input type="text" name="number" value="" />Ex: 0123273849 / 0338463345
+     <input type="text" name="contactNumber" value="" />Ex: 0123273849 / 0338463345
     </div>
 
     <div class="userinput">
      <label><b>Fax Number</b> </label>
-     <input type="text" name="number" value="" />Ex: 0123273849 / 0338463345
+     <input type="text" name="faxNnumber" value="" />Ex: 0123273849 / 0338463345
      </div>
 
     <div class="userinput">
      <label><b>Amount (excl.GST)</b> </label>
-     <input type="hidden" name="number" value="RM 600" />RM 1600.00
+     <input type="hidden" name="number" value="RM 600" />RM 600.00
      </div>
 
      <div class="userinput">
@@ -145,7 +144,7 @@
 
       <div class="userinput">
        <label><b>Amount (excl.GST)</b></label>
-       <input type="hidden" name="number" value="RM 600" />RM 1600.00
+       <input type="hidden" name="number" value="RM 600" />RM 600.00
        </div>
 
 
@@ -176,7 +175,6 @@
    </div>
    <br>
    <br>
-   <br>
    <div class="logo2">
      <img src="logo2.png" alt="logo" style=" width: 10%">
      <img src="logo3.png" alt="logo" style=" width: 10%">
@@ -196,14 +194,14 @@
 
     <div style="text-align:center">
      <button type="reset" class="sampleBtn1"/>Reset</button>
-     <button onclick="myFunction()" class="sampleBtn"/><a href="payment.html" id="submitxt"  style="text-decoration:none;">Submit</a></button>
+     <button onclick="myFunction()" type="submit" class="sampleBtn"/><a href="confirm.html" id="submitxt"  style="text-decoration:none;">Submit</a></button>
      <p id="demo"></p>
      <script>
           function myFunction() {
             var txt;
             var r = confirm("Are you sure you want to proceed?");
             if (r == true) {
-              txt = "You are registered";
+              txt = "";
             } else {
               txt = "";
             }
@@ -216,8 +214,11 @@
    </form>
         </fieldset>
 
-
 <br><br><br><br>
+
+<script src="registration.js">
+
+</script>
 
 <footer>
 
@@ -340,7 +341,6 @@ function topFunction() {
   document.body.scrollTop = 0; // For Safari
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
-  </script>
-
+	</script>
   </body>
 </html>
