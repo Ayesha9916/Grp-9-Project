@@ -36,13 +36,6 @@ function GEEKFORGEEKS()
         return false;
     }
 
-    if (number.value == "")
-    {
-        window.alert("Please enter your Fax Number");
-        password.focus();
-        return false;
-    }
-
     if (organization.value == "")
     {
         alert("Please enter organization.");
